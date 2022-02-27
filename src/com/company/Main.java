@@ -1,6 +1,6 @@
   package com.company;
 public class Main {
-    public static void main(String[] args) {
+    public static void main(Strthing[] args) {
 //// declaration methods
 //        //int arr[][] = new int[3][4];
 //        int arr[][] = new int[][]{
@@ -27,6 +27,7 @@ public class Main {
             for(int i=1;i<=5;i++) {
                 for (int j=5;j>i;j--) {
                     System.out.print(" ");
+                    System.out.println( "GITCHANGE");
                 }
                 for (int p=1; p<=(i*2)-1; p++){
                 System.out.print("*");
