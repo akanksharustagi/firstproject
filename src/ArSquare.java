@@ -4,6 +4,8 @@ public class ArSquare {
         int square = n*n;
         System.out.println("square of the num="+ square);
         System.out.println(" square of number");
+        System.out.println("change");
+
     }
 }
 

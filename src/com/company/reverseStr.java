@@ -1,2 +1,4 @@
-package com.company;public class reverseStr {
+package com.company;
+
+public class reverseStr {
 }

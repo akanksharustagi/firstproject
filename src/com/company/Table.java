@@ -1,11 +1,18 @@
 package com.company;
 
-public class EvenArray2 {
+import java.util.Scanner;
+
+public class Table {
     public static void main(String[] args) {
-        int[] even = {3, 2, 8, 1, 4, 7, 6};
-        int count = 0;
-        for (int i = 0; i < even.length; i++) {
-            if (even[i] % 2 == 0) count++;
+        System.out.println(" enter number");
+        Scanner sc= new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int term =10;
+
+        for ( int i =10 ; i>=1; i--) {
+            int result = n * i;
+            System.out.println(n + "*" + i + "=" + result);
         }
-        System.out.println(" there are " + count + "even numbers in array");
+
 }}

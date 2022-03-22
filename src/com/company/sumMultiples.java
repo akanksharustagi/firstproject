@@ -1,16 +1,14 @@
 package com.company;
 
-import java.util.Scanner;
-
-public class evenArray {
+public class sumMultiples {
     public static void main(String[] args) {
-        int [] arr = {3,2,8,1,4,7,6};
-        int count =0;
-        for ( int i=0; i< arr.length; i++){
-            if (arr[i]%2==0){
-                count++;
+      int a =3;
+        int l = 10;
+        int b = 5;
+        int sum = 0;
+        for(int i=0;i<=l;i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+                sum = sum + i;
             }
-        }
-        System.out.println("even numbers in array are " + count);
-    }
-    }
+            System.out.println( sum);
+        }}}
